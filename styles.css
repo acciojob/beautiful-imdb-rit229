@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.moviePic {
+    height: 300px; /* Set your desired height */
+    width: 200px; /* Set your desired width */
+    opacity: 0.9; /* Adjust opacity */
+}
+
+.movieDetail {
+    position: absolute; /* Position it absolutely */
+    top: 50%; /* Center it vertically */
+    width: 80%; /* Set width */
+    text-align: center; /* Center the text */
+    font-size: 20px; /* Set font size */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
